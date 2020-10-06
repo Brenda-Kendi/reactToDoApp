@@ -1,0 +1,25 @@
+{
+  "name": "reacttodoapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "babel": "babel src/app.js --out-file=juice/scripts/app.js --presets=env.react --watch",
+    "serve": "live-server juice"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Brenda-Kendi/reactToDoApp.git"
+  },
+  "author": "kendi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Brenda-Kendi/reactToDoApp/issues"
+  },
+  "homepage": "https://github.com/Brenda-Kendi/reactToDoApp#readme",
+  "dependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "liveserver": "^0.1.20"
+  }
+}
